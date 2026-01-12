@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Portfolio</title>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="./Portfolio-skills.html">Skills</a></li>
+            <li><a href="./Portfolio-project.html">Projects</a></li>
+            <li><a href="./Portfolio-exp.html">Experience</a></li>
+            <li><a href="Portfolio-contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="header-inner">
+            <img src="https://i.ibb.co/x8Lp5LTT/IMG-20251202-WA0001.jpg" alt="Profile Photo" id="pfp">
+            <div>
+                <h1>Justin Mathew Philip</h1>
+                <p class="subtitle">Web Developer • Full Stack • Front End</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="section1" class="card">
+            <h2>About Me</h2>
+            <p>Hi! My name is Justin Mathew Philip. </p>
+            <p>I'm a passionate Web Developer focused on UI/UX and building responsive, accessible web experiences.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact:</h2>
+            <a href="Portfolio-contact.html" class="button">Contact Me</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="muted">© Justin Mathew Philip — All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
